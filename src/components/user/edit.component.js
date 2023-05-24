@@ -1,11 +1,11 @@
 import React from 'react';
 import Menubar from '../header/menubar.component';
 
-export default function Adduser() {
+export default function Edituser() {
   return (
     <p>
       <Menubar />
-      Hello I am add user
+      Hello i am edit user
     </p>
   );
 }

@@ -22,10 +22,10 @@ export default function Menubar() {
       <Collapse isOpen={isOpen} navbar>
         <Nav className="ml-auto" navbar>
           <NavItem>
-            <NavLink href="/components/">Add users</NavLink>
+            <NavLink href="/adduser">Add users</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/">List users</NavLink>
+            <NavLink href="/listuser">List users</NavLink>
           </NavItem>
         </Nav>
       </Collapse>
