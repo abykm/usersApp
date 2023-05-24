@@ -1,10 +1,11 @@
-import React from "react";
-import "./style.css";
+import React from 'react';
+import './style.css';
+import Menubar from './components/header/menubar.component';
 
 export default function App() {
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
+      <Menubar />
       <p>Start editing to see some magic happen :)</p>
     </div>
   );
