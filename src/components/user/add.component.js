@@ -32,7 +32,7 @@ export default function Adduser() {
                 />
               </FormGroup>
               <Button color="success" href="/123">
-                Add
+                Submit
               </Button>
             </Form>
           </Col>
