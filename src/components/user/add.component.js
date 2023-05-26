@@ -4,7 +4,7 @@ import Menubar from '../header/menubar.component';
 
 export default function Adduser() {
   return (
-    <p>
+    <div>
       <Menubar />
       <div className="App">
         <Row>
@@ -38,6 +38,6 @@ export default function Adduser() {
           </Col>
         </Row>
       </div>
-    </p>
+    </div>
   );
 }
