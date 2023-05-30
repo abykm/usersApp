@@ -36,9 +36,11 @@ export default function Edituser() {
               <Label> Status : {location.state.status} </Label>
               <br />
               <Button color="success">
-                {location.state.status === 'pending' ? 'Publish' : 'UnpPublish'}
+                {location.state.status === 'pending' ? 'Publish' : 'UnPublish'}
               </Button>{' '}
-              <Button color="danger">Delete</Button>{' '}
+              <Button color="danger" onClick={() => deleteUser()}>
+                Delete
+              </Button>{' '}
               <Button color="primary">Update</Button>
             </Form>
           </Col>
