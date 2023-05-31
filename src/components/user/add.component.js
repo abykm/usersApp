@@ -7,13 +7,19 @@ import Menubar from '../header/menubar.component';
 export default function Adduser() {
   const [users, setUsers] = useState({ uname: '', place: '' });
   const [submitted, setSubmitted] = useState(false);
+  const dispatch = useDispatch();
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setUsers({ ...users, [name]: value });
   };
   const saveUsers = () => {
-    console.log(users);
-    setSubmitted(true);
+    dispatch(createUsers(users))
+      .then((data) => {
+        setSubmitted(true);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
   };
   const newUsers = () => {
     setSubmitted(false);
