@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@popperjs/core": "^2.11.6",
+    "@reduxjs/toolkit": "^1 || ^2.0.0-beta.0",
     "@types/react": "^16.8 || ^17.0 || ^18.0",
     "@types/react-dom": "^16.8 || ^17.0 || ^18.0",
     "axios": "^1.4.0",
@@ -16,7 +17,8 @@
     "reactstrap": "^9.1.10",
     "redux": "^4",
     "redux-devtools-extension": "^2.13.9",
-    "redux-thunk": "^2.4.2"
+    "redux-thunk": "^2.4.2",
+    "thunk": "^0.0.1"
   },
   "scripts": {
     "start": "react-scripts start",

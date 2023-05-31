@@ -1,5 +1,5 @@
-import CREATE_USERS from './users.js';
-import UsersDataService from '../services/users.service.js';
+import CREATE_USERS from './types';
+import UsersDataService from '../services/users.service';
 
 export const createUsers = (data) => async (dispatch) => {
   try {

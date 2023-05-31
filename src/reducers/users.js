@@ -5,7 +5,7 @@ const initailState = [];
 function usersReducer(users = initailState, action) {
   const { type, payload } = action;
   switch (type) {
-    case 'CREATE_USERS':
+    case CREATE_USERS:
       return [...users, payload];
     default:
       return users;
